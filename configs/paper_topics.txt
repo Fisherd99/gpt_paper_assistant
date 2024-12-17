@@ -4,5 +4,7 @@
  2. Correlation method such as RPA and GW.
  3. Calculation of excited state (exciton) energy and photon-absorption spectrum based on Bethe-Salpeter equation or liner-response time-dependent density-functional theory (lr-TDDFT).
     - Relevant: beyond Tamm-Dancoff approximation, fractional occpuation
+ 4. Density matrix functional theory and its application.
+    - Relevant: optimization of occupation number and orbital.
 
  In suggesting papers to your friend, remember that he enjoys papers on new methodology, rather than just benchmark or convergence test.
