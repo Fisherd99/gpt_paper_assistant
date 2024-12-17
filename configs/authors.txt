@@ -1,9 +1,12 @@
-# Stanford NLP faculty.
-Tatsunori B. Hashimoto, 3056528
-Tatsunori Hashimoto, 2117567142
-Percy Liang, 145419642
-Dan Jurafsky, 1746807
-Christopher D. Manning, 144783904
-Chris Potts, 1741530
-Diyi Yang, 2022168
-Monica Lam, 39682108
+# https://www.semanticscholar.org/
+# FHI-aims faculty.
+X. Ren, 49448722
+V. Blum, 2053546
+M. Scheffler, 145310714
+
+Dorothea-Golze, 13144361
+J. Hutter, 145561431
+G. Onida, 3158770
+S. Louie, 2295048
+Xavier Blase, 2238018075
+X. Blase, 4281572
