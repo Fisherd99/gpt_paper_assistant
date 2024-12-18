@@ -35,7 +35,7 @@ jobs:
       with:
         files: output.md
     - name: Convert output.md to pages
-      uses: wranders/markdown-to-pages-action@v0.1
+      uses: wranders/markdown-to-pages-action@v1
       if: steps.check_files.outputs.files_exists == 'true'
       with:
        token: ${{ secrets.GITHUB_TOKEN }}
