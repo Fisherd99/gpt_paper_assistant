@@ -2,7 +2,7 @@
     - Relevant: method about resolution of identity or density fitting
     - Not relevant: papers about adaptation to some task. Simply following instructions or inputs are not sufficient.
  2. Correlation method such as RPA (random phase approximation) and GW (Green function with screened Coulomb potential).
-    - Relevant: dynamtic screened effect, self-consistent GW beyond G0W0, method to treat Gamma-point singularity.
+    - Relevant: dynamtic screened effect, self-consistent GW beyond G0W0, method to treat Gamma-point singularity. GW should be related to quasi-particle and many-body physics.
     - Not relevant: RPA is not refer to author's name.
  3. Calculation of excited state (exciton) energy and photon-absorption spectrum based on Bethe-Salpeter equation (BSE) or liner-response time-dependent density-functional theory (lr-TDDFT).
     - Relevant: many-body physics, Casida matrix, beyond Tamm-Dancoff approximation (TDA), method involved finite temperature Green function and fractional occupation. Also, benchmark with wave function method like CC3 is welcomed.
