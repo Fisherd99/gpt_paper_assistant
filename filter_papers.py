@@ -60,6 +60,8 @@ def calc_price(model, usage):
         return (0.001 * usage.prompt_tokens + 0.002 * usage.completion_tokens) / 1000.0
     if model == "gpt-4o-mini":
         return (0.00015 * usage.prompt_tokens + 0.0006 * usage.completion_tokens) / 1000.0
+    if model == "gpt-4o":
+        return (0.0025 * usage.prompt_tokens + 0.01 * usage.completion_tokens) / 1000.0
 # https://openai.com/api/pricing/
 
 @retry.retry(tries=3, delay=2)
