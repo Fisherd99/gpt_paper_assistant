@@ -19,7 +19,8 @@ jobs:
     outputs:
       file-exists: ${{steps.file-check.outputs.file_exists}}
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout
+    - uses: actions/checkout@v4
     - name: Download artifact
       id: download-artifact
       uses: dawidd6/action-download-artifact@v4
@@ -40,10 +41,10 @@ jobs:
       with:
        token: ${{ secrets.GITHUB_TOKEN }}
        file: output.md
-    - uses: actions/upload-pages-artifact@v3
+    - uses: actions/upload-pages-artifact@v2
       if: steps.check_files.outputs.files_exists == 'true'
       with:
         path: dist
-    - uses: actions/deploy-pages@v3
+    - uses: actions/deploy-pages@v1
       if: steps.check_files.outputs.files_exists == 'true'
       id: deployment
