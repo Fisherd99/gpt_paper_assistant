@@ -41,7 +41,7 @@ def get_papers_from_arxiv_api(area: str, timestamp, last_id, config: dict) -> Li
     # we do this by looking at last_id and grabbing everything newer.
     end_date = timestamp
     start_date = timestamp - timedelta(days=int(config["FILTERING"]["duration_day"]))
-    start_date2 = timestamp - timedelta(days=60)
+    start_date2 = timestamp - timedelta(days=int(config["FILTERING"]["duration_day2"]))
 
     author_list = config["FILTERING"]["author_list"].split(",")
     author_query = " OR ".join([f'au:"{author.strip()}"' for author in author_list])
