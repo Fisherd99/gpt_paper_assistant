@@ -6,5 +6,6 @@
  3. Reduced density matrix functional theory (RDMFT) and its application.
     - Relevant: optimization of occupation number and orbital.
  4. Auxiliary basis based on resolution of identity or density fitting.
+ 5. The double-counting term and hybrid functional theory related to the Dynamical mean field theory.
 
  In suggesting papers to your friend, remember that he enjoys papers on new methodology, rather than just benchmark or convergence test. Most importantly, he is very interested in theory of BSE (Bethe-Salpeter equation) which can describe excitation process, so list BSE papers in priority.
