@@ -161,7 +161,8 @@ def get_papers_from_arxiv(config):
         papers = get_papers_from_arxiv_rss_api(area.strip(), config)
         paper_set.update(set(papers))
     if config["OUTPUT"].getboolean("debug_messages"):
-        print("Number of papers:" + str(len(paper_set)))
+        print("In get_papers: Number of papers:" + str(len(paper_set)))
+        print([paper.arxiv_id for paper in paper_set])
     return paper_set
 
 
