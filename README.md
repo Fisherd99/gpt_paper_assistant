@@ -5,7 +5,7 @@ It will run daily via github actions and can post this information to slack via 
 
 A simple demo of the daily papers can be seen [here](https://tatsu-lab.github.io/gpt_paper_assistant/) running on `cs.CL`
 
-As a cost estimate, running this on all of `cs.CL` cost $0.07 on 2/7/2024
+As a cost estimate, running this on recent 7 days of `physics.chem-ph` and `cond-mat.mtrl-sci` cost $0.002 with `gpt-4o-mini` on 2024-12-21.
 
 ## Changelog
 - **2/15/2024**: fixed a bug with author parsing in the RSS format + cost estimates for title filtering being off + crash when 0 papers are on the feed. 
